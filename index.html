@@ -42,7 +42,8 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand" target="_blank"
+                    href="https://carranca22.github.io">
                     <i class="fa fa-play-circle"></i>  <span class="light">Carranca</span> 22
                 </a>
             </div>
@@ -51,8 +52,8 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a class='page-scroll' href="#page-top">Início</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Sobre</a>
@@ -71,7 +72,7 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header id='intro' class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -103,26 +104,26 @@
 
     <!-- Download Section -->
     <section id="schedule" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Programação</h2>
-                    <p>Veja aqui os cursos disponíveis!</p>
-                    <div class='row'>
-                        <ul class='courses pull-left'>
-                            <li class='course'>Curso 1
-                            <p class='desc'>Descrição 1<br><a class='btn' href='#'>Link 1</a></p></li>
-                            <li class='course'>Curso 2
-                            <p class='desc'>Descrição 2<br><a class='btn' href='#'>Link 2</a></p></li>
-                            <li class='course'>Curso 3
-                            <p class='desc'>Descrição 3<br><a class='btn' href='#'>Link 3</a></p></li>
-                            <li class='course'>Curso 4
-                            <p class='desc'>Descrição 4<br><a class='btn' href='#'>Link 2</a></p></li>
-                        </ul>
-                    </div>
-                    <hr>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Programação</h2>
+                <p>Veja aqui os cursos disponíveis!</p>
+                <div class='row'>
+                    <ul class='courses pull-left'>
+                        <li class='course'>Curso 1
+                        <p class='desc'>Descrição 1<br><a class='btn' href='#'>Link 1</a></p></li>
+                        <li class='course'>Curso 2
+                        <p class='desc'>Descrição 2<br><a class='btn' href='#'>Link 2</a></p></li>
+                        <li class='course'>Curso 3
+                        <p class='desc'>Descrição 3<br><a class='btn' href='#'>Link 3</a></p></li>
+                        <li class='course'>Curso 4
+                        <p class='desc'>Descrição 4<br><a class='btn' href='#'>Link 2</a></p></li>
+                    </ul>
                 </div>
+                <a href="#intro" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-up animated"></i>
+                </a>
+                <hr>
             </div>
         </div>
     </section>
