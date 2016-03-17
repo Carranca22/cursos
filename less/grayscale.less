@@ -3,6 +3,19 @@
 
 .courses {
     margin-top: 50px;
+    display: inline-block;
+}
+
+.courses, .only {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .courses {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
 }
 
 dl {
