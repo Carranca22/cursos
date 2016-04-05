@@ -6,6 +6,9 @@
 .only {
   width: 100%;
 }
+.enroll {
+  margin: 0 2em;
+}
 @media (min-width: 800px) {
   .courses {
     width: 50%;
